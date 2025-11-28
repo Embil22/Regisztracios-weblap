@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Registrieren</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <h1>Registrieren</h1>
+
+        <form action="regiszternemet.php" method="post">
+            <input name="email" type="email" placeholder="E-Mail Adresse" required />
+            <input type="email" placeholder="E-Mail Adresse bestätigen" required />
+            <input name="username" type="text" placeholder="Benutzername" required />
+            <input name="password" type="password" placeholder="Passwort" required />
+            <input type="password" placeholder="Passwort bestätigen" required />
+            <br>
+            <button type="submit">Benutzerkonto erstellen</button>
+            <br>
+            <br>
+            <button class="vissza"><a href="bejregnemet.html">Zurück</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
