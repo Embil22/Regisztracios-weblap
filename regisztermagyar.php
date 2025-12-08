@@ -48,7 +48,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <img src="logo.png" alt="logo">
         </div>
         <h1><?php echo $result ?></h1>
+        <br>
+        <button><a href="loginmagyar.html">Bejelentkezés</a></button>
     </div>
 </body>
+
 
 </html>
