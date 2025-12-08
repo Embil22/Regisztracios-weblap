@@ -48,7 +48,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <img src="logo.png" alt="logo">
         </div>
         <h1><?php echo $result ?></h1>
+        <br>
+        <button><a href="loginnemet.html">Login</a></button>
     </div>
 </body>
+
 
 </html>
